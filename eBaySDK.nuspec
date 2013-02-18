@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>eBaySDK</id>
+    <version>3.805.0</version>
+    <authors>eBay</authors>
+    <owners>Sergii Bidnyi</owners>
+    <licenseUrl>http://opensource.org/licenses/cddl1.php</licenseUrl>
+    <projectUrl>https://www.x.com/developers/ebay/documentation-tools/sdks/dotnet</projectUrl>
+     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Welcome to the eBay SDK for .NET Community Codebase project! The eBay SDK for .NET is open source. This SDK cuts development time and simplifies tasks like error handling. Several helpful code samples are included in this download, to help you get started fast!</description>
+    <releaseNotes>This release is compatible with eBay's 805 Trading WSDL.</releaseNotes>
+    <copyright>Copyright 2013 eBay</copyright>
+    <tags>eBay sdk</tags>
+  </metadata>
+</package>

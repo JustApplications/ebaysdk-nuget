@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>eBay</id>
-    <version>3.871.0</version>
+    <version>3.883.0</version>
     <authors>eBay</authors>
     <owners>shimmy,nugeter,wortexx</owners>
     <licenseUrl>http://opensource.org/licenses/cddl1.php</licenseUrl>

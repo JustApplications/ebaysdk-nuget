@@ -2,15 +2,15 @@
 <package >
   <metadata>
     <id>eBay</id>
-    <version>3.883.0</version>
+    <version>3.897.0</version>
     <authors>eBay</authors>
     <owners>shimmy,nugeter,wortexx</owners>
     <licenseUrl>http://opensource.org/licenses/cddl1.php</licenseUrl>
     <projectUrl>https://www.x.com/developers/ebay/documentation-tools/sdks/dotnet</projectUrl>
      <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use the eBay SDK for .NET to simplify common development tasks like logging, error handling, and authentication.</description>
-    <releaseNotes>This release is compatible with eBay's 871 Trading WSDL.</releaseNotes>
-    <copyright>Copyright 2013 eBay</copyright>
+    <releaseNotes>This release is compatible with eBay's 897 Trading WSDL.</releaseNotes>
+    <copyright>Copyright 2014 eBay</copyright>
     <tags>ebay api sdk</tags>
   </metadata>
 </package>

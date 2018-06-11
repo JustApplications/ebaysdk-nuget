@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>eBay</id>
-    <version>3.1027.0</version>
+    <version>3.1055.0</version>
     <authors>eBay</authors>
     <owners>shimmy,nugeter,wortexx</owners>
     <licenseUrl>http://opensource.org/licenses/cddl1.php</licenseUrl>
@@ -10,7 +10,7 @@
      <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use the eBay SDK for .NET to simplify common development tasks like logging, error handling, and authentication.</description>
     <releaseNotes>http://developer.ebay.com/DevZone/WindowsSDK/docs/Release%20Notes/ReleaseNotes.html</releaseNotes>
-    <copyright>Copyright 2017 eBay</copyright>
+    <copyright>Copyright 2018 eBay</copyright>
     <tags>ebay api sdk</tags>
   </metadata>
 </package>

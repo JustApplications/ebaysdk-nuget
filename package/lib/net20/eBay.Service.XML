@@ -4354,6 +4354,11 @@
             Gets the returned <see cref="P:eBay.Service.Core.Soap.GeteBayDetailsResponseType.ReturnPolicyDetails"/> of type <see cref="T:eBay.Service.Core.Soap.ReturnPolicyDetailsType"/>.
             </summary>
         </member>
+        <member name="P:eBay.Service.Call.GeteBayDetailsCall.InternationalReturnPolicyDetails">
+            <summary>
+            Gets the returned <see cref="P:eBay.Service.Core.Soap.GeteBayDetailsResponseType.InternationalReturnPolicyDetails"/> of type <see cref="T:eBay.Service.Core.Soap.ReturnPolicyDetailsType"/>.
+            </summary>
+        </member>
         <member name="P:eBay.Service.Call.GeteBayDetailsCall.ListingStartPriceDetailList">
             <summary>
             Gets the returned <see cref="P:eBay.Service.Core.Soap.GeteBayDetailsResponseType.ListingStartPriceDetails"/> of type <see cref="T:eBay.Service.Core.Soap.ListingStartPriceDetailsTypeCollection"/>.
@@ -14974,6 +14979,11 @@
             see <see href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/GettingTokens-.html">Getting Tokens.</see>
             </summary>
         </member>
+        <member name="P:eBay.Service.Core.Sdk.ApiCredential.oAuthToken">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="E:eBay.Service.Core.Sdk.ApiCredential.OnTokenHardExpirationWarning">
             <summary>
             
@@ -15967,6 +15977,11 @@
         </member>
         <member name="T:eBay.Service.Core.Soap.CustomSecurityHeaderType">
             <remarks/>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.CustomSecurityHeaderType.oAuthToken">
+            <summary>
+            
+            </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.CustomSecurityHeaderType.eBayAuthToken">
             <summary>
@@ -29840,42 +29855,12 @@
             
             </summary>
         </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.MinimumFeedbackScore">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.MinimumFeedbackScoreSpecified">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.MaximumItemRequirements">
             <summary>
             
             </summary>
         </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.LinkedPayPalAccount">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.LinkedPayPalAccountSpecified">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.VerifiedUserRequirements">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.MaximumUnpaidItemStrikesInfo">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.BuyerRequirementDetailsType.MaximumBuyerPolicyViolations">
             <summary>
             
             </summary>
@@ -29908,29 +29893,6 @@
             
             </summary>
         </member>
-        <member name="T:eBay.Service.Core.Soap.VerifiedUserRequirementsType">
-            <remarks/>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.VerifiedUserRequirementsType.VerifiedUser">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.VerifiedUserRequirementsType.VerifiedUserSpecified">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.VerifiedUserRequirementsType.MinimumFeedbackScore">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.VerifiedUserRequirementsType.MinimumFeedbackScoreSpecified">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:eBay.Service.Core.Soap.MaximumUnpaidItemStrikesInfoType">
             <remarks/>
         </member>
@@ -29955,34 +29917,6 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.MaximumUnpaidItemStrikesInfoType.Any">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType">
-            <remarks/>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType.Count">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType.CountSpecified">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType.Period">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType.PeriodSpecified">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:eBay.Service.Core.Soap.MaximumBuyerPolicyViolationsType.Any">
             <summary>
             
             </summary>
@@ -30081,6 +30015,26 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.ReturnPolicyType.ExtendedHolidayReturnsSpecified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.ReturnPolicyType.InternationalRefundOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.ReturnPolicyType.InternationalReturnsAcceptedOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.ReturnPolicyType.InternationalReturnsWithinOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.ReturnPolicyType.InternationalShippingCostPaidByOption">
             <summary>
             
             </summary>
@@ -30401,6 +30355,11 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.VariationProductListingDetailsType.EAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.VariationProductListingDetailsType.ProductReferenceID">
             <summary>
             
             </summary>
@@ -38564,6 +38523,26 @@
             
             </summary>
         </member>
+        <member name="P:eBay.Service.Core.Soap.RecommendationValidationRulesType.AspectUsage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.RecommendationValidationRulesType.AspectUsageSpecified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.RecommendationValidationRulesType.MaxValueLength">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.RecommendationValidationRulesType.MaxValueLengthSpecified">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:eBay.Service.Core.Soap.RecommendationValidationRulesType.ProductRequired">
             <summary>
             
@@ -38643,6 +38622,18 @@
             <remarks/>
         </member>
         <member name="F:eBay.Service.Core.Soap.SelectionModeCodeType.CustomCode">
+            <remarks/>
+        </member>
+        <member name="T:eBay.Service.Core.Soap.AspectUsageCodeType">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.AspectUsageCodeType.Product">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.AspectUsageCodeType.Instance">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.AspectUsageCodeType.CustomCode">
             <remarks/>
         </member>
         <member name="T:eBay.Service.Core.Soap.ProductRequiredCodeType">
@@ -38828,6 +38819,14 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.CategoryMappingType.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:eBay.Service.Core.Soap.ProductRequiredEnabledDefinitionType">
+            <remarks/>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.ProductRequiredEnabledDefinitionType.Any">
             <summary>
             
             </summary>
@@ -40599,6 +40598,11 @@
             
             </summary>
         </member>
+        <member name="P:eBay.Service.Core.Soap.FeatureDefinitionsType.ProductRequiredEnabled">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:eBay.Service.Core.Soap.SiteDefaultsType">
             <remarks/>
         </member>
@@ -41882,6 +41886,16 @@
             
             </summary>
         </member>
+        <member name="P:eBay.Service.Core.Soap.SiteDefaultsType.ProductRequiredEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.SiteDefaultsType.ProductRequiredEnabledSpecified">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:eBay.Service.Core.Soap.ListingDurationReferenceType">
             <remarks/>
         </member>
@@ -42166,6 +42180,18 @@
             <remarks/>
         </member>
         <member name="F:eBay.Service.Core.Soap.ProfileCategoryGroupCodeType.MOTORS_VEHICLE">
+            <remarks/>
+        </member>
+        <member name="T:eBay.Service.Core.Soap.ProductRequiredEnabledCodeType">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.ProductRequiredEnabledCodeType.Disabled">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.ProductRequiredEnabledCodeType.Enabled">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.ProductRequiredEnabledCodeType.CustomCode">
             <remarks/>
         </member>
         <member name="T:eBay.Service.Core.Soap.CategoryFeatureType">
@@ -43397,6 +43423,16 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.CategoryFeatureType.KTypeSupportedSpecified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.CategoryFeatureType.ProductRequiredEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.CategoryFeatureType.ProductRequiredEnabledSpecified">
             <summary>
             
             </summary>
@@ -47372,6 +47408,11 @@
             </summary>
         </member>
         <member name="P:eBay.Service.Core.Soap.GeteBayDetailsResponseType.ReturnPolicyDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:eBay.Service.Core.Soap.GeteBayDetailsResponseType.InternationalReturnPolicyDetails">
             <summary>
             
             </summary>
@@ -58104,9 +58145,6 @@
         <member name="F:eBay.Service.Core.Soap.FeatureIDCodeType.ValueCategory">
             <remarks/>
         </member>
-        <member name="F:eBay.Service.Core.Soap.FeatureIDCodeType.ProductCreationEnabled">
-            <remarks/>
-        </member>
         <member name="F:eBay.Service.Core.Soap.FeatureIDCodeType.EANEnabled">
             <remarks/>
         </member>
@@ -58162,6 +58200,9 @@
             <remarks/>
         </member>
         <member name="F:eBay.Service.Core.Soap.FeatureIDCodeType.KTypeSupported">
+            <remarks/>
+        </member>
+        <member name="F:eBay.Service.Core.Soap.FeatureIDCodeType.ProductRequiredEnabled">
             <remarks/>
         </member>
         <member name="T:eBay.Service.Core.Soap.GetCategoriesRequestType">

@@ -23,6 +23,10 @@ jobs:
           # Filepath of the project to be packaged, relative to root of repository
           PROJECT_FILE_PATH: package/eBay.nuspec
           
+          
+          # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
+          VERSION_STATIC: 3.1131.0
+          
           # NuGet package id, used for version detection & defaults to project name
           # PACKAGE_NAME: eBay
           
@@ -33,10 +37,10 @@ jobs:
           # TAG_FORMAT: v*
 
           # API key to authenticate with NuGet server
-          # NUGET_KEY: oy2hnftjq27rka5e3y2qbvx2vhpfs57uvkhg7jxxgxf7de
+          NUGET_KEY: oy2hnftjq27rka5e3y2qbvx2vhpfs57uvkhg7jxxgxf7de
 
           # NuGet server uri hosting the packages, defaults to https://api.nuget.org
-          # NUGET_SOURCE: https://api.nuget.org
+          NUGET_SOURCE: https://api.nuget.org
 
           # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
-          #tINCLUDE_SYMBOLS: true
+          INCLUDE_SYMBOLS: true
